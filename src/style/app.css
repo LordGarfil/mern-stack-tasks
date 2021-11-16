@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  display: grid;
+  grid-template-rows: 30px auto;
+}
+
+.main nav{
+  background:  #ec7063   ;
+  padding: 15px 10px;
+  display: flex;
+  align-items: center
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  padding: 15px 5em;
+}
+
+.task-form-container{
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.input-container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-container input[type="text"], .input-container textarea{
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+.task-actions button{
+  padding: 8px;
+  cursor: pointer;
+}
+
+/* Style classes */
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
